@@ -1,5 +1,7 @@
 class BlogsController < ApplicationController
   def index
+    @blogs = Blog.all
+  # 記事を全件取得
   end
 
   def show
